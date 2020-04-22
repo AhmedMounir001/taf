@@ -2,12 +2,12 @@
 <testng-results skipped="2" failed="1" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="nopcommerce Regression Suite" duration-ms="1846" started-at="2020-04-21T20:41:37 EET" finished-at="2020-04-21T20:41:39 EET">
+  <suite name="nopcommerce Regression Suite" duration-ms="3198" started-at="2020-04-22T19:34:03 EET" finished-at="2020-04-22T19:34:06 EET">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1846" started-at="2020-04-21T20:41:37 EET" finished-at="2020-04-21T20:41:39 EET">
-      <class name="tasts.UserRegisterationTest">
-        <test-method status="PASS" signature="startDrier(java.lang.String)[pri:0, instance:tasts.UserRegisterationTest@4d95d2a2]" name="startDrier" is-config="true" duration-ms="8211" started-at="2020-04-21T20:41:29 EET" finished-at="2020-04-21T20:41:37 EET">
+    <test name="Test" duration-ms="3198" started-at="2020-04-22T19:34:03 EET" finished-at="2020-04-22T19:34:06 EET">
+      <class name="tasts.ProductEmailaFriendTest">
+        <test-method status="PASS" signature="startDrier(java.lang.String)[pri:0, instance:tasts.ProductEmailaFriendTest@7494e528]" name="startDrier" is-config="true" duration-ms="9797" started-at="2020-04-22T19:33:53 EET" finished-at="2020-04-22T19:34:03 EET">
           <params>
             <param index="0">
               <value>
@@ -18,28 +18,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDrier -->
-        <test-method status="FAIL" signature="userRegisterSuccessully()[pri:1, instance:tasts.UserRegisterationTest@4d95d2a2]" name="userRegisterSuccessully" duration-ms="1787" started-at="2020-04-21T20:41:37 EET" finished-at="2020-04-21T20:41:39 EET">
+        <test-method status="FAIL" signature="userRegisterSuccessully()[pri:1, instance:tasts.ProductEmailaFriendTest@7494e528]" name="userRegisterSuccessully" duration-ms="3131" started-at="2020-04-22T19:34:03 EET" finished-at="2020-04-22T19:34:06 EET">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=81.0.4044.113)
+  (Session info: chrome=81.0.4044.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DM', ip: '10.0.3.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'DM', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 110da08a5abd28c8f6f8cf6ec1b034a4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52114ea57377063d290c9f6f28b94c3d
 *** Element info: {Using=id, value=gender-female}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=81.0.4044.113)
+  (Session info: chrome=81.0.4044.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DM', ip: '10.0.3.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'DM', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 110da08a5abd28c8f6f8cf6ec1b034a4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52114ea57377063d290c9f6f28b94c3d
 *** Element info: {Using=id, value=gender-female}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -60,32 +60,32 @@ at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invok
 at com.sun.proxy.$Proxy12.click(Unknown Source)
 at pages.PageBase.clickButton(PageBase.java:30)
 at pages.UserRegiserationPage.userRegisteration(UserRegiserationPage.java:35)
-at tasts.UserRegisterationTest.userRegisterSuccessully(UserRegisterationTest.java:33)
+at tasts.ProductEmailaFriendTest.userRegisterSuccessully(ProductEmailaFriendTest.java:42)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -95,11 +95,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegisterSuccessully -->
-        <test-method status="FAIL" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tasts.UserRegisterationTest@4d95d2a2]" name="takeScreenshotOnFailure" is-config="true" duration-ms="10" started-at="2020-04-21T20:41:39 EET" finished-at="2020-04-21T20:41:39 EET">
+        <test-method status="FAIL" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tasts.ProductEmailaFriendTest@7494e528]" name="takeScreenshotOnFailure" is-config="true" duration-ms="13" started-at="2020-04-22T19:34:06 EET" finished-at="2020-04-22T19:34:06 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userRegisterSuccessully status=FAILURE method=UserRegisterationTest.userRegisterSuccessully()[pri:1, instance:tasts.UserRegisterationTest@4d95d2a2] output={null}]]]>
+                <![CDATA[[TestResult name=userRegisterSuccessully status=FAILURE method=ProductEmailaFriendTest.userRegisterSuccessully()[pri:1, instance:tasts.ProductEmailaFriendTest@7494e528] output={null}]]]>
               </value>
             </param>
           </params>
@@ -107,22 +107,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=81.0.4044.113)
+  (Session info: chrome=81.0.4044.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DM', ip: '10.0.3.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'DM', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 110da08a5abd28c8f6f8cf6ec1b034a4]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52114ea57377063d290c9f6f28b94c3d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=81.0.4044.113)
+  (Session info: chrome=81.0.4044.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DM', ip: '10.0.3.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'DM', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 110da08a5abd28c8f6f8cf6ec1b034a4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52114ea57377063d290c9f6f28b94c3d
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -141,32 +141,32 @@ at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -176,27 +176,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method status="SKIP" signature="registeredUserLogOut()[pri:2, instance:tasts.UserRegisterationTest@4d95d2a2]" name="registeredUserLogOut" duration-ms="0" started-at="2020-04-21T20:41:39 EET" finished-at="2020-04-21T20:41:39 EET">
+        <test-method status="SKIP" signature="useAutocompleteSearch()[pri:2, instance:tasts.ProductEmailaFriendTest@7494e528]" name="useAutocompleteSearch" duration-ms="0" started-at="2020-04-22T19:34:06 EET" finished-at="2020-04-22T19:34:06 EET">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=81.0.4044.113)
+  (Session info: chrome=81.0.4044.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DM', ip: '10.0.3.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'DM', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 110da08a5abd28c8f6f8cf6ec1b034a4]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52114ea57377063d290c9f6f28b94c3d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=81.0.4044.113)
+  (Session info: chrome=81.0.4044.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DM', ip: '10.0.3.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'DM', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 110da08a5abd28c8f6f8cf6ec1b034a4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52114ea57377063d290c9f6f28b94c3d
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -215,32 +215,32 @@ at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -249,32 +249,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registeredUserLogOut -->
-        <test-method status="SKIP" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tasts.UserRegisterationTest@4d95d2a2]" name="takeScreenshotOnFailure" is-config="true" duration-ms="-1587494499469" started-at="2020-04-21T20:41:39 EET" finished-at="1970-01-01T02:00:00 EET">
+        </test-method> <!-- useAutocompleteSearch -->
+        <test-method status="SKIP" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tasts.ProductEmailaFriendTest@7494e528]" name="takeScreenshotOnFailure" is-config="true" duration-ms="-1587576846652" started-at="2020-04-22T19:34:06 EET" finished-at="1970-01-01T02:00:00 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method status="SKIP" signature="registerdUserCanLogin()[pri:3, instance:tasts.UserRegisterationTest@4d95d2a2]" name="registerdUserCanLogin" duration-ms="0" started-at="2020-04-21T20:41:39 EET" finished-at="2020-04-21T20:41:39 EET">
+        <test-method status="SKIP" signature="emailProductToFriend()[pri:3, instance:tasts.ProductEmailaFriendTest@7494e528]" name="emailProductToFriend" duration-ms="0" started-at="2020-04-22T19:34:06 EET" finished-at="2020-04-22T19:34:06 EET">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=81.0.4044.113)
+  (Session info: chrome=81.0.4044.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DM', ip: '10.0.3.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'DM', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 110da08a5abd28c8f6f8cf6ec1b034a4]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52114ea57377063d290c9f6f28b94c3d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=81.0.4044.113)
+  (Session info: chrome=81.0.4044.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DM', ip: '10.0.3.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'DM', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 110da08a5abd28c8f6f8cf6ec1b034a4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52114ea57377063d290c9f6f28b94c3d
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -293,32 +293,32 @@ at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -327,16 +327,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerdUserCanLogin -->
-        <test-method status="SKIP" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tasts.UserRegisterationTest@4d95d2a2]" name="takeScreenshotOnFailure" is-config="true" duration-ms="-1587494499475" started-at="2020-04-21T20:41:39 EET" finished-at="1970-01-01T02:00:00 EET">
+        </test-method> <!-- emailProductToFriend -->
+        <test-method status="SKIP" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tasts.ProductEmailaFriendTest@7494e528]" name="takeScreenshotOnFailure" is-config="true" duration-ms="-1587576846660" started-at="2020-04-22T19:34:06 EET" finished-at="1970-01-01T02:00:00 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshotOnFailure -->
-        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tasts.UserRegisterationTest@4d95d2a2]" name="stopDriver" is-config="true" duration-ms="0" started-at="2020-04-21T20:41:39 EET" finished-at="2020-04-21T20:41:39 EET">
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tasts.ProductEmailaFriendTest@7494e528]" name="stopDriver" is-config="true" duration-ms="0" started-at="2020-04-22T19:34:06 EET" finished-at="2020-04-22T19:34:06 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDriver -->
-      </class> <!-- tasts.UserRegisterationTest -->
+      </class> <!-- tasts.ProductEmailaFriendTest -->
     </test> <!-- Test -->
   </suite> <!-- nopcommerce Regression Suite -->
 </testng-results>
