@@ -11,6 +11,7 @@
           <include name="takeScreenshotOnFailure"/>
           <include name="registeredUserLogOut"/>
           <include name="stopDriver"/>
+          <include name="registerdUserCanLogin"/>
         </methods>
       </class> <!-- tasts.UserRegisterationTest -->
     </classes>
